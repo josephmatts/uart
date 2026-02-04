@@ -23,3 +23,7 @@ Normal UART
 
 PHASE 2:
 AXI UART
+
+
+REFERENCE:
+https://github.com/ben-marshall/uart/blob/master/rtl/uart_tx.v
