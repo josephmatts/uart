@@ -9,8 +9,8 @@ module uart_tx
 (
     input clk,
     input rst,
-    input rd_en,
     input wr_en,
+    input s_tick,
     input [DATA_WIDTH-1:0] din,
     
     output tx,
@@ -40,7 +40,7 @@ always@(*) begin
 
         START:begin
             tx_next = 1'b0;
-            
+
         end
 
     

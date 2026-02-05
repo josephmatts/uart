@@ -14,7 +14,7 @@ Normal UART
          ___________________________________
         |clk                 dout[width-1:0]|      
         |rst                              tx|                 
-        |en                                 |                            
+        |rd_en                              |                            
         |wr_en                              |
         |din[width-1:0]                     |
         |rx                                 |
